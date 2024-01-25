@@ -40,158 +40,6 @@
                         ]
                     },
                     {
-                        "description": "Fn + Space -> Hyper Key",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_option",
-                                        "modifiers": [
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Fn + f -> HyperKey + f",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f",
-                                        "modifiers": [
-                                            "left_option",
-                                            "left_shift",
-                                            "left_control",
-                                            "left_command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Hyperkey + (n) -> chrome, code, slack, calender",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "1",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option",
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Google Chrome.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "2",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option",
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Visual Studio Code.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "3",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option",
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Slack.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_option",
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Calendar.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Fn + ijkl -> arrow keys",
                         "manipulators": [
                             {
@@ -504,9 +352,7 @@
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 308,
@@ -514,12 +360,6 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [
                         {
                             "from": {
@@ -577,9 +417,7 @@
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": true,
                         "is_pointing_device": true,
                         "product_id": 45091,
@@ -587,21 +425,13 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 834,
@@ -609,21 +439,13 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": false,
                         "is_pointing_device": true,
                         "product_id": 834,
@@ -631,21 +453,13 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 257,
@@ -653,21 +467,13 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 50475,
@@ -675,21 +481,13 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
                     "identifiers": {
-                        "is_game_pad": false,
                         "is_keyboard": false,
                         "is_pointing_device": true,
                         "product_id": 50475,
@@ -697,56 +495,6 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
-                    "simple_modifications": [],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
-                    "identifiers": {
-                        "is_game_pad": false,
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 0,
-                        "vendor_id": 0
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
-                    "simple_modifications": [],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "game_pad_swap_sticks": false,
-                    "identifiers": {
-                        "is_game_pad": false,
-                        "is_keyboard": false,
-                        "is_pointing_device": true,
-                        "product_id": 0,
-                        "vendor_id": 0
-                    },
-                    "ignore": true,
-                    "manipulate_caps_lock_led": false,
-                    "mouse_flip_horizontal_wheel": false,
-                    "mouse_flip_vertical_wheel": false,
-                    "mouse_flip_x": false,
-                    "mouse_flip_y": false,
-                    "mouse_swap_wheels": false,
-                    "mouse_swap_xy": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 }
